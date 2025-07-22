@@ -1,0 +1,60 @@
+2025-07-18 11:32:29,516 - INFO - Retrieved 50 RAG logs
+2025-07-18 11:32:29,559 - INFO - Retrieved 55 tickets
+2025-07-18 11:38:08,402 - INFO - Retrieved 50 RAG logs
+2025-07-18 11:38:08,447 - INFO - Retrieved 55 tickets
+2025-07-18 11:38:12,322 - INFO - Retrieved 55 tickets
+2025-07-18 11:38:50,662 - INFO - Retrieved 55 tickets
+2025-07-18 11:38:50,926 - INFO - Ticket 32 status updated to done
+2025-07-18 11:38:51,037 - INFO - Retrieved 55 tickets
+2025-07-18 14:01:01,854 - INFO - Retrieved 50 RAG logs
+2025-07-18 14:01:01,906 - INFO - Retrieved 55 tickets
+2025-07-18 14:01:13,065 - INFO - Retrieved 55 tickets
+2025-07-18 14:01:22,377 - INFO - Retrieved 50 RAG logs
+2025-07-18 14:01:22,422 - INFO - Retrieved 55 tickets
+2025-07-18 14:01:41,617 - INFO - Retrieved 55 tickets
+2025-07-18 14:02:36,518 - INFO - Retrieved 50 RAG logs
+2025-07-18 14:02:36,574 - INFO - Retrieved 55 tickets
+2025-07-18 14:07:47,587 - INFO - Retrieved 55 tickets
+2025-07-18 14:07:47,629 - INFO - Retrieved 50 RAG logs
+2025-07-18 14:07:57,174 - INFO - Retrieved 55 tickets
+2025-07-18 14:07:57,219 - INFO - Retrieved 50 RAG logs
+2025-07-18 14:15:55,057 - INFO - Retrieved 47 tickets
+2025-07-18 14:15:55,111 - INFO - Retrieved 42 RAG logs
+2025-07-18 14:21:03,394 - INFO - Retrieved 45 tickets
+2025-07-18 14:21:03,563 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:24:56,381 - INFO - Retrieved 45 tickets
+2025-07-18 14:24:56,434 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:29:42,451 - ERROR - Database connection error: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-07-18 14:29:42,595 - ERROR - Database connection error: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-07-18 14:30:26,291 - INFO - Retrieved 45 tickets
+2025-07-18 14:30:26,339 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:31:41,641 - INFO - Retrieved 45 tickets
+2025-07-18 14:31:41,685 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:35:49,333 - INFO - Retrieved 45 tickets
+2025-07-18 14:35:49,489 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:40:01,378 - INFO - Retrieved 45 tickets
+2025-07-18 14:40:01,427 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:40:55,122 - INFO - Retrieved 45 tickets
+2025-07-18 14:40:55,273 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:40:56,803 - INFO - Retrieved 45 tickets
+2025-07-18 14:40:56,865 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:42:16,878 - INFO - Retrieved 45 tickets
+2025-07-18 14:42:16,925 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:45:47,592 - INFO - Retrieved 45 tickets
+2025-07-18 14:45:47,632 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:50:15,958 - INFO - Retrieved 45 tickets
+2025-07-18 14:50:16,010 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:50:40,121 - INFO - Retrieved 45 tickets
+2025-07-18 14:50:40,258 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:51:52,850 - INFO - Retrieved 45 tickets
+2025-07-18 14:51:52,910 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:51:56,324 - INFO - Retrieved 45 tickets
+2025-07-18 14:51:56,372 - INFO - Retrieved 40 RAG logs
+2025-07-18 14:54:34,307 - ERROR - Database connection error: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-07-18 14:54:34,333 - ERROR - Database connection error: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-07-18 14:55:10,127 - INFO - Retrieved 45 tickets
+2025-07-18 14:55:10,181 - INFO - Retrieved 40 RAG logs
