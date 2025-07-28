@@ -124,7 +124,6 @@ st.markdown("""
 # =============================================================================
 
 def get_db_connection():
-    """Create database connection with proper error handling"""
     try:
         connection = psycopg2.connect(
             host=DB_HOST,
@@ -140,7 +139,6 @@ def get_db_connection():
         return None
 
 def save_ticket(question):
-    """Save ticket to database with proper error handling"""
     conn = None
     try:
         conn = get_db_connection()
@@ -168,7 +166,6 @@ def save_ticket(question):
             conn.close()
 
 def get_all_tickets():
-    """Get all tickets from database with proper error handling"""
     conn = None
     try:
         conn = get_db_connection()
@@ -195,7 +192,6 @@ def get_all_tickets():
             conn.close()
 
 def get_rag_logs():
-    """Get all RAG logs from database with proper error handling"""
     conn = None
     try:
         conn = get_db_connection()
@@ -249,7 +245,6 @@ def update_ticket_status(ticket_id, new_status):
 # =============================================================================
 
 def parse_solution_json(solution_data):
-    """Parse solution JSON data with robust error handling"""
     try:
         if isinstance(solution_data, dict):
             return solution_data
@@ -308,7 +303,6 @@ def create_priority_chart(df):
     return fig
 
 def create_unit_chart(df):
-    """Create unit distribution chart"""
     if df.empty:
         return None
     
@@ -360,7 +354,6 @@ def create_status_chart(tickets):
     return fig
 
 def filter_rag_logs(df, priority_filter, unit_filter, search_term):
-    """Filter RAG logs based on criteria"""
     filtered_df = df.copy()
     
     if priority_filter != "All":
@@ -403,7 +396,6 @@ def render_sidebar():
     return user_role, page
 
 def render_submit_ticket():
-    """Render ticket submission form"""
     st.markdown('<h1 class="main-header">🎫 Submit Support Ticket</h1>', unsafe_allow_html=True)
     
     with st.form("ticket_form", clear_on_submit=True):
@@ -441,7 +433,6 @@ def render_submit_ticket():
                     st.error("Failed to submit ticket. Please try again.")
 
 def render_track_tickets():
-    """Render ticket tracking interface"""
     st.markdown('<h1 class="main-header">🔍 Track Your Tickets</h1>', unsafe_allow_html=True)
     
     # Search by ticket ID
@@ -806,7 +797,6 @@ def render_admin_dashboard():
         st.info("No tickets match your filter criteria.")
 
 def main():
-    """Main application function"""
     # Render sidebar
     user_role, page = render_sidebar()
     
